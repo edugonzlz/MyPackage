@@ -1,6 +1,6 @@
 public struct MyPackage {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
+    public func printMe(string: String) -> Bool {
+        print(string)
+        return true
     }
 }
